@@ -15,7 +15,7 @@
 #
 #USE_CLANG_PLATFORM_BUILD := true
 
-DEVICE_PATH := device/nubia/nx529j
+DEVICE_PATH := device/yulong/CP3600I
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
@@ -234,4 +234,4 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/nubia/nx529j/BoardConfigVendor.mk
+-include vendor/yulong/CP3600I/BoardConfigVendor.mk

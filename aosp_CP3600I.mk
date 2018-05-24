@@ -25,16 +25,16 @@ $(call inherit-product, vendor/aosp/common.mk)
 DEFAULT_ROOT_METHOD := magisk
 
 # Inherit from nx529j device
-$(call inherit-product, device/nubia/nx529j/device.mk)
+$(call inherit-product, device/yulong/CP3600I/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := nx529j
-PRODUCT_NAME := aosp_nx529j
+PRODUCT_DEVICE := CP3600I
+PRODUCT_NAME := aosp_CP3600I
 PRODUCT_BRAND := Nubia
 PRODUCT_MODEL := Nubia Z11 mini
 PRODUCT_MANUFACTURER := Nubia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="NX529J" \
-    BUILD_FINGERPRINT="Nubia/NX529J/NX529J:7.0/NRD90M/20160927.144351:user/release-keys" \
-    PRIVATE_BUILD_DESC="NX529J-user 7.0 NRD90M eng.nubia.20160927.144351 release-keys"
+    PRODUCT_NAME="CP3600I" \
+    BUILD_FINGERPRINT="Nubia/CP3600I/CP3600I:7.0/NRD90M/20160927.144351:user/release-keys" \
+    PRIVATE_BUILD_DESC="CP3600I-user 7.0 NRD90M eng.nubia.20160927.144351 release-keys"

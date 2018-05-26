@@ -1,0 +1,16 @@
+on boot
+setprop persist.radio.adb_log_on 1
+setprop persist.radio.multisim.config dsds
+setprop persist.radio.lte_full_band 0x10000000005
+setprop persist.radio.ims.cmcc true
+
+setprop persist.data.qmi.adb_logmask 0
+setprop persist.yulong.operators.mode 1
+setprop persist.radio.redir_party_num 0
+setprop persist.dpm.feature 0
+setprop persist.yulong.multi_mbn 1
+setprop persist.dbg.volte_avail_ovr 1
+setprop persist.dbg.vt_avail_ovr 1
+service comm_radio /system/bin/sh /system/etc/comm.sh 1123
+class main
+oneshot

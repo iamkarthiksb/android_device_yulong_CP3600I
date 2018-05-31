@@ -263,6 +263,6 @@ $(shell mkdir -p $(TARGET_OUT)/vendor/lib64; \
         $(TARGET_OUT)/vendor/lib64/libEGL_adreno.so)
 
 
-include device/nubia/nx529j/tftp.mk
+include device/yulong/CP3600I/tftp.mk
 
 endif

@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/nubia/nx529j/nx529j-vendor.mk)
+$(call inherit-product-if-exists, vendor/yulong/CP3600I/CP3600I-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -323,4 +323,4 @@ PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf \
     wpa_supplicant_overlay.conf
 
-$(call inherit-product, device/nubia/nx529j/chager_res/copyfiles.mk)
+$(call inherit-product, device/yulong/CP3600I/chager_res/copyfiles.mk)

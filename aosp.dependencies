@@ -1,11 +1,11 @@
 [
   {
-    "repository": "NFound/android_kernel_nubia_msm8952",
+    "repository": "mohancm/android_kernel_coolpad_msm8994",
     "target_path": "kernel/path",
     "branch": "master"
   },
   {
-    "repository": "NFound/proprietary_vendor_nubia",
+    "repository": "iamkarthiksb/proprietary_vendor_yulong",
     "target_path": "vendor/path",
     "branch": "master"
   },

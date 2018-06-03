@@ -5,9 +5,9 @@
     "branch": "master"
   },
   {
-    "repository": "iamkarthiksb/proprietary_vendor_yulong",
+    "repository": "McFy49/proprietary_vendor_yulong_CP3600I",
     "target_path": "vendor/path",
-    "branch": "master"
+    "branch": "universal"
   },
   {
     "repository": "LineageOS/android_device_qcom_common",

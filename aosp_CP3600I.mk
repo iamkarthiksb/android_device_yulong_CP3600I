@@ -19,17 +19,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/xosp/common.mk)
 
 # Use Magisk
 DEFAULT_ROOT_METHOD := magisk
 
 # Inherit from nx529j device
-$(call inherit-product, device/yulong/CP3600I/device.mk)
+$(call inherit-product, device/yulong/xosp/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CP3600I
-PRODUCT_NAME := aosp_CP3600I
+PRODUCT_NAME := xosp_CP3600I
 PRODUCT_BRAND := Nubia
 PRODUCT_MODEL := Nubia Z11 mini
 PRODUCT_MANUFACTURER := Nubia

@@ -20,6 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/xosp/common.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
 # Use Magisk
 DEFAULT_ROOT_METHOD := magisk

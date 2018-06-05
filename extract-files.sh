@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=nx529j
-VENDOR=nubia
+DEVICE=CP3600I
+VENDOR=yulong
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

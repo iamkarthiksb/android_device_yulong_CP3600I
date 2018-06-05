@@ -31,9 +31,9 @@ $(call inherit-product, device/yulong/xosp/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CP3600I
 PRODUCT_NAME := xosp_CP3600I
-PRODUCT_BRAND := Nubia
-PRODUCT_MODEL := Nubia Z11 mini
-PRODUCT_MANUFACTURER := Nubia
+PRODUCT_BRAND := Coolpad
+PRODUCT_MODEL := Coolpad 3600I
+PRODUCT_MANUFACTURER := YuLong
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="CP3600I" \

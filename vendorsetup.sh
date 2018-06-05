@@ -1,2 +1,2 @@
-add_lunch_combo omni_CP3600I-eng
+add_lunch_combo xosp_CP3600I-eng
 

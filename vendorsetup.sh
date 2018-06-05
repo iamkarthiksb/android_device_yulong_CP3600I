@@ -1,2 +1,2 @@
-add_lunch_combo xosp_CP3600I-eng
+add_lunch_combo xenonhd_CP3600I-eng
 

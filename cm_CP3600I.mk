@@ -19,18 +19,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/xenonhd/common.mk)
+$(call inherit-product, vendor/cm/common.mk)
 
 
 # Use Magisk
 DEFAULT_ROOT_METHOD := magisk
 
 # Inherit from nx529j device
-$(call inherit-product, device/yulong/xenonhd/device.mk)
+$(call inherit-product, device/yulong/cm/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CP3600I
-PRODUCT_NAME := xenonhd_CP3600I
+PRODUCT_NAME := cm_CP3600I
 PRODUCT_BRAND := Coolpad
 PRODUCT_MODEL := Coolpad 3600I
 PRODUCT_MANUFACTURER := YuLong

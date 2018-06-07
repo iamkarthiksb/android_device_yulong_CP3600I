@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/lineage/common.mk)
+$(call inherit-product, vendor/cm/common.mk)
 
 
 # Use Magisk
@@ -30,7 +30,7 @@ $(call inherit-product, device/yulong/lineage/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CP3600I
-PRODUCT_NAME := lineage_CP3600I
+PRODUCT_NAME := cm_CP3600I
 PRODUCT_BRAND := Coolpad
 PRODUCT_MODEL := Coolpad 3600I
 PRODUCT_MANUFACTURER := YuLong

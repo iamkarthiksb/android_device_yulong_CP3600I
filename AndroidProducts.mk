@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cm_CP3600I.mk
+    $(LOCAL_DIR)/lineage_CP3600I.mk

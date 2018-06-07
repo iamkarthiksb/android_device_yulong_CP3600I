@@ -1,2 +1,2 @@
-add_lunch_combo cm_CP3600I-eng
-add_lunch_combo cm_CP3600I-userdebug
+add_lunch_combo lineage_CP3600I-eng
+add_lunch_combo lineage_CP3600I-userdebug

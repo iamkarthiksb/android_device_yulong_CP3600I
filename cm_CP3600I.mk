@@ -26,7 +26,7 @@ $(call inherit-product, vendor/cm/common.mk)
 DEFAULT_ROOT_METHOD := magisk
 
 # Inherit from nx529j device
-$(call inherit-product, device/yulong/lineage/device.mk)
+$(call inherit-product, device/yulong/cm/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CP3600I
